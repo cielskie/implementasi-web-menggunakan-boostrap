@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profil Instagram</title>
+  <!-- Bootstrap -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Font Awesome -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+
+  <style>
+    body {
+      font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      background-color: #000;
+      color: #fff;
+    }
+    .profile-pic {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 3px solid #fff;
+    }
+    .btn-edit {
+      background-color: #363636;
+      border: none;
+      border-radius: 8px;
+      color: #fff;
+      font-weight: 600;
+      font-size: 14px;
+      padding: 7px 16px;
+    }
+    .btn-edit:hover {
+      background-color: #424242;
+      color: #fff;
+    }
+    .highlight-circle {
+      width: 77px;
+      height: 77px;
+      border-radius: 50%;
+      border: 2px solid #555;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto 8px;
+      background-color: #121212;
+      font-size: 20px;
+    }
+    .highlight-name {
+      font-size: 12px;
+    }
+    .post-item img {
+      width: 100%;
+      aspect-ratio: 1/1; /* Biar kotak */
+      object-fit: cover;
+      border-radius: 4px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container py-4">
+
+    <!-- Header Profil -->
+    <div class="row mb-4 align-items-center">
+      <div class="col-12 col-md-4 text-center text-md-start mb-3 mb-md-0">
+        <img src="assets/img/PROFILE IG.jpg" class="profile-pic" alt="Foto Profil">
+      </div>
+      <div class="col-12 col-md-8">
+        <div class="d-flex flex-wrap align-items-center gap-2 mb-3">
+          <h1 class="h5 mb-0">Tyooskie</h1>
+          <!-- Tombol interaksi -->
+          <button class="btn btn-edit">Follow</button>
+          <button class="btn btn-edit">Message</button>
+          <button class="btn btn-edit">Edit Profil</button>
+          <button class="btn btn-edit"><i class="fas fa-cog"></i></button>
+        </div>
+        <!-- Statistik -->
+        <div class="d-flex gap-4 mb-3">
+          <div><strong>12</strong> Post</div>
+          <div><strong>1JT</strong> Followers</div>
+          <div><strong>1</strong> Following</div>
+        </div>
+        <!-- Bio -->
+        <div>
+          <div class="fw-bold">TIYO CAHYO NUGROHO</div>
+          <div>Man w/risk addict</div>
+          <div>Software Engineering</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Highlight Story -->
+    <div class="row text-center mb-4">
+      <div class="col-3 col-md-2">
+        <div class="highlight-circle"><i class="fas fa-heart"></i></div>
+        <div class="highlight-name">Favorit</div>
+      </div>
+      <div class="col-3 col-md-2">
+        <div class="highlight-circle"><i class="fas fa-plane"></i></div>
+        <div class="highlight-name">Traveling</div>
+      </div>
+      <div class="col-3 col-md-2">
+        <div class="highlight-circle"><i class="fas fa-utensils"></i></div>
+        <div class="highlight-name">Food</div>
+      </div>
+      <div class="col-3 col-md-2">
+        <div class="highlight-circle"><i class="fas fa-camera"></i></div>
+        <div class="highlight-name">Me</div>
+      </div>
+    </div>
+
+    <!-- Feed Foto -->
+    <div class="row g-1">
+      <!-- Responsive grid: mobile 1, tablet 2-3, desktop 4 -->
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3"><div class="post-item"><img src="assets/img/foto 1.jpg" alt=""></div></div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3"><div class="post-item"><img src="assets/img/foto 2.jpg" alt=""></div></div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3"><div class="post-item"><img src="assets/img/foto 3.jpg" alt=""></div></div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3"><div class="post-item"><img src="assets/img/foto 4.jpg" alt=""></div></div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3"><div class="post-item"><img src="assets/img/foto 5.jpg" alt=""></div></div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3"><div class="post-item"><img src="assets/img/foto 6.jpg" alt=""></div></div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3"><div class="post-item"><img src="assets/img/foto 7.jpg" alt=""></div></div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3"><div class="post-item"><img src="assets/img/foto 8.jpg" alt=""></div></div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3"><div class="post-item"><img src="assets/img/foto 9.jpg" alt=""></div></div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3"><div class="post-item"><img src="assets/img/foto 10.jpg" alt=""></div></div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3"><div class="post-item"><img src="assets/img/foto 11.jpg" alt=""></div></div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3"><div class="post-item"><img src="assets/img/foto 12.jpg" alt=""></div></div>
+    </div>
+
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
